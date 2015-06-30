@@ -1,0 +1,28 @@
+{
+  "name": "hop-addition-es6",
+  "version": "1.0.0",
+  "description": "Hop additions es6 module for use in beer brewing",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^5.6.14",
+    "should": "^7.0.1"
+  },
+  "devDependencies": {
+    "babel": "^5.6.14",
+    "mocha": "^2.2.5",
+    "should": "^7.0.1"
+  },
+  "scripts": {
+    "test": "babel-node ./node_modules/.bin/_mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eiriksm/hop-addition-es6.git"
+  },
+  "author": "Eirik S. Morland <eirik@morland.no>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eiriksm/hop-addition-es6/issues"
+  },
+  "homepage": "https://github.com/eiriksm/hop-addition-es6#readme"
+}
